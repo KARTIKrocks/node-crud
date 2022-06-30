@@ -1,0 +1,43 @@
+{
+  "name": "tntra-nodejs-bootcamp",
+  "version": "0.0.0",
+  "description": "Tntra bootcamp on nodejs mongodb express server.",
+  "main": "index.js",
+  "author": "Tntra.io",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": "14.17.x"
+  },
+  "type": "module",
+  "keywords": [
+    "node",
+    "express",
+    "mongo",
+    "mongoose",
+    "mongodb",
+    "node-express",
+    "node-express-mongo"
+  ],
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "helmet": "^5.1.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16"
+  },
+  "_moduleAliases": {
+    "utils": "./server/utils",
+    "middlewares": "./server/middlewares",
+    "server": "./server",
+    "api": "./server/api",
+    "config": "./config",
+    "services": "./server/services",
+    "database": "./server/database",
+    "daos": "./server/daos"
+  }
+}
